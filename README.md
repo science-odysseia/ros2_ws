@@ -41,7 +41,7 @@ package/
 
 노드 하나를 실행하기 위해 필요한 파일들 모두가 들어간다고 생각하면 편하다.
 
-### 3) ros2 run &nbsp;&nbsp;&nbsp; VS &nbsp;&nbsp;&nbsp; ros2 launch
+### 3) ros2 run &nbsp;&nbsp; VS &nbsp;&nbsp; ros2 launch
 
 #### 1. ros2 run
 
