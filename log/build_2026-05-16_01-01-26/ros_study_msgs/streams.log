@@ -1,0 +1,323 @@
+[0.011s] Invoking command in '/home/ubunut2204/ros2_ws/build/ros_study_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubunut2204/ros2_ws/build/ros_study_msgs -- -j16 -l16
+[0.067s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.192s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.195s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.199s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.384s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.424s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.687s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.832s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.012s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.031s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.051s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.051s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.051s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.110s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.130s] -- Added test 'lint_cmake' to check CMake code style
+[1.132s] -- Added test 'xmllint' to check XML markup files
+[1.137s] -- Configuring done
+[1.184s] -- Generating done
+[1.193s] -- Build files have been written to: /home/ubunut2204/ros2_ws/build/ros_study_msgs
+[1.219s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.226s] [  4%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[1.229s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.235s] [  6%] Built target ament_cmake_python_copy_ros_study_msgs
+[1.490s] running egg_info
+[1.491s] writing ros_study_msgs.egg-info/PKG-INFO
+[1.491s] writing dependency_links to ros_study_msgs.egg-info/dependency_links.txt
+[1.492s] writing top-level names to ros_study_msgs.egg-info/top_level.txt
+[1.496s] reading manifest file 'ros_study_msgs.egg-info/SOURCES.txt'
+[1.497s] writing manifest file 'ros_study_msgs.egg-info/SOURCES.txt'
+[1.526s] [  6%] Built target ament_cmake_python_build_ros_study_msgs_egg
+[1.588s] [  6%] Built target ros_study_msgs__rs
+[1.740s] [35m[1mConsolidate compiler generated dependencies of target ros_study_msgs__rosidl_generator_c[0m
+[1.752s] [  8%] [32mBuilding C object CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/srv/detail/my_srv__functions.c.o[0m
+[1.752s] [  8%] Built target ros_study_msgs__cpp
+[1.753s] [ 10%] [32mBuilding C object CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/msg/detail/my_msg__functions.c.o[0m
+[1.753s] [ 12%] [32mBuilding C object CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/action/detail/my_action__functions.c.o[0m
+[1.762s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.762s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.764s] [ 18%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.928s] [ 20%] [32m[1mLinking C shared library libros_study_msgs__rosidl_generator_c.so[0m
+[2.033s] [ 20%] Built target ros_study_msgs__rosidl_generator_c
+[2.041s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.041s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.041s] [ 27%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.128s] [35m[1mConsolidate compiler generated dependencies of target ros_study_msgs__rosidl_typesupport_cpp[0m
+[2.143s] [ 29%] [32mBuilding CXX object CMakeFiles/ros_study_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_study_msgs/msg/my_msg__type_support.cpp.o[0m
+[2.145s] [ 31%] [32mBuilding CXX object CMakeFiles/ros_study_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_study_msgs/action/my_action__type_support.cpp.o[0m
+[2.146s] [ 33%] [32mBuilding CXX object CMakeFiles/ros_study_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_study_msgs/srv/my_srv__type_support.cpp.o[0m
+[2.239s] [35m[1mConsolidate compiler generated dependencies of target ros_study_msgs__rosidl_typesupport_introspection_cpp[0m
+[2.264s] [ 35%] [32mBuilding CXX object CMakeFiles/ros_study_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_study_msgs/srv/detail/my_srv__type_support.cpp.o[0m
+[2.267s] [ 37%] [32mBuilding CXX object CMakeFiles/ros_study_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_study_msgs/action/detail/my_action__type_support.cpp.o[0m
+[2.269s] [ 39%] [32mBuilding CXX object CMakeFiles/ros_study_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_study_msgs/msg/detail/my_msg__type_support.cpp.o[0m
+[2.284s] [35m[1mConsolidate compiler generated dependencies of target ros_study_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[2.304s] [ 43%] [32mBuilding CXX object CMakeFiles/ros_study_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_study_msgs/srv/detail/dds_fastrtps/my_srv__type_support.cpp.o[0m
+[2.304s] [ 43%] [32mBuilding CXX object CMakeFiles/ros_study_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_study_msgs/action/detail/dds_fastrtps/my_action__type_support.cpp.o[0m
+[2.306s] [ 45%] [32mBuilding CXX object CMakeFiles/ros_study_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_study_msgs/msg/detail/dds_fastrtps/my_msg__type_support.cpp.o[0m
+[2.682s] [ 47%] [32mBuilding CXX object CMakeFiles/ros_study_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_study_msgs/action/my_action__type_support.cpp.o[0m
+[2.683s] [ 50%] [32mBuilding CXX object CMakeFiles/ros_study_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_study_msgs/msg/my_msg__type_support.cpp.o[0m
+[2.688s] [ 52%] [32mBuilding CXX object CMakeFiles/ros_study_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_study_msgs/srv/my_srv__type_support.cpp.o[0m
+[2.787s] [ 54%] [32m[1mLinking CXX shared library libros_study_msgs__rosidl_typesupport_c.so[0m
+[2.876s] [ 58%] [32mBuilding C object CMakeFiles/ros_study_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_study_msgs/msg/detail/my_msg__type_support.c.o[0m
+[2.876s] [ 58%] [32mBuilding C object CMakeFiles/ros_study_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_study_msgs/action/detail/my_action__type_support.c.o[0m
+[2.876s] [ 60%] [32mBuilding C object CMakeFiles/ros_study_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_study_msgs/srv/detail/my_srv__type_support.c.o[0m
+[2.928s] [ 62%] [32mBuilding CXX object CMakeFiles/ros_study_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_study_msgs/srv/detail/my_srv__type_support_c.cpp.o[0m
+[2.934s] [ 64%] [32mBuilding CXX object CMakeFiles/ros_study_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_study_msgs/msg/detail/my_msg__type_support_c.cpp.o[0m
+[2.936s] [ 66%] [32mBuilding CXX object CMakeFiles/ros_study_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_study_msgs/action/detail/my_action__type_support_c.cpp.o[0m
+[2.982s] [ 68%] [32m[1mLinking C shared library libros_study_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.987s] [ 68%] Built target ros_study_msgs__rosidl_typesupport_c
+[3.109s] [ 70%] [32m[1mLinking CXX shared library libros_study_msgs__rosidl_typesupport_cpp.so[0m
+[3.110s] [ 70%] Built target ros_study_msgs__rosidl_typesupport_introspection_c
+[3.231s] [ 70%] Built target ros_study_msgs__rosidl_typesupport_cpp
+[3.289s] [ 72%] [32m[1mLinking CXX shared library libros_study_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.304s] [ 75%] [32m[1mLinking CXX shared library libros_study_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[3.359s] [ 77%] [32m[1mLinking CXX shared library libros_study_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[3.410s] [ 77%] Built target ros_study_msgs__rosidl_typesupport_fastrtps_cpp
+[3.428s] [ 77%] Built target ros_study_msgs__rosidl_typesupport_introspection_cpp
+[3.477s] [ 77%] Built target ros_study_msgs__rosidl_typesupport_fastrtps_c
+[3.492s] [ 77%] Built target ros_study_msgs
+[3.507s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.167s] [ 79%] Built target ros_study_msgs__py
+[4.186s] [ 85%] [32mBuilding C object CMakeFiles/ros_study_msgs__rosidl_generator_py.dir/rosidl_generator_py/ros_study_msgs/msg/_my_msg_s.c.o[0m
+[4.186s] [ 85%] [32mBuilding C object CMakeFiles/ros_study_msgs__rosidl_generator_py.dir/rosidl_generator_py/ros_study_msgs/action/_my_action_s.c.o[0m
+[4.186s] [ 85%] [32mBuilding C object CMakeFiles/ros_study_msgs__rosidl_generator_py.dir/rosidl_generator_py/ros_study_msgs/srv/_my_srv_s.c.o[0m
+[4.336s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/ros_study_msgs/libros_study_msgs__rosidl_generator_py.so[0m
+[4.454s] [ 87%] Built target ros_study_msgs__rosidl_generator_py
+[4.488s] [ 89%] [32mBuilding C object CMakeFiles/ros_study_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.490s] [ 91%] [32mBuilding C object CMakeFiles/ros_study_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.493s] [ 93%] [32mBuilding C object CMakeFiles/ros_study_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[4.658s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/ros_study_msgs/ros_study_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.659s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/ros_study_msgs/ros_study_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.662s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ros_study_msgs/ros_study_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.730s] [100%] Built target ros_study_msgs__rosidl_typesupport_introspection_c__pyext
+[4.731s] [100%] Built target ros_study_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.762s] [100%] Built target ros_study_msgs__rosidl_typesupport_c__pyext
+[4.775s] Invoked command in '/home/ubunut2204/ros2_ws/build/ros_study_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubunut2204/ros2_ws/build/ros_study_msgs -- -j16 -l16
+[4.786s] Invoking command in '/home/ubunut2204/ros2_ws/build/ros_study_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubunut2204/ros2_ws/build/ros_study_msgs
+[4.791s] -- Install configuration: ""
+[4.792s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ament_index/resource_index/rosidl_interfaces/ros_study_msgs
+[4.792s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs
+[4.792s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg
+[4.793s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/detail
+[4.793s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/detail/my_msg__functions.c
+[4.793s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/detail/my_msg__type_support.h
+[4.794s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/detail/my_msg__struct.h
+[4.794s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/detail/my_msg__functions.h
+[4.794s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.794s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/my_msg.h
+[4.795s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action
+[4.795s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/my_action.h
+[4.795s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/detail
+[4.796s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/detail/my_action__functions.c
+[4.796s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/detail/my_action__type_support.h
+[4.796s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/detail/my_action__functions.h
+[4.796s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/detail/my_action__struct.h
+[4.796s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv
+[4.796s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/my_srv.h
+[4.796s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/detail
+[4.796s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/detail/my_srv__struct.h
+[4.797s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/detail/my_srv__type_support.h
+[4.797s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/detail/my_srv__functions.c
+[4.797s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/detail/my_srv__functions.h
+[4.797s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/environment/library_path.sh
+[4.797s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/environment/library_path.dsv
+[4.797s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/lib/libros_study_msgs__rosidl_generator_c.so
+[4.797s] -- Set runtime path of "/home/ubunut2204/ros2_ws/install/ros_study_msgs/lib/libros_study_msgs__rosidl_generator_c.so" to ""
+[4.797s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs
+[4.798s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg
+[4.798s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/detail
+[4.798s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/detail/my_msg__rosidl_typesupport_fastrtps_c.h
+[4.798s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.798s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action
+[4.798s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/detail
+[4.799s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/detail/my_action__rosidl_typesupport_fastrtps_c.h
+[4.799s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv
+[4.799s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/detail
+[4.799s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/detail/my_srv__rosidl_typesupport_fastrtps_c.h
+[4.799s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/lib/libros_study_msgs__rosidl_typesupport_fastrtps_c.so
+[4.799s] -- Set runtime path of "/home/ubunut2204/ros2_ws/install/ros_study_msgs/lib/libros_study_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[4.800s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs
+[4.800s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg
+[4.800s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/detail
+[4.801s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/detail/my_msg__rosidl_typesupport_introspection_c.h
+[4.801s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/detail/my_msg__type_support.c
+[4.801s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.801s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action
+[4.801s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/detail
+[4.801s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/detail/my_action__type_support.c
+[4.801s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/detail/my_action__rosidl_typesupport_introspection_c.h
+[4.801s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv
+[4.801s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/detail
+[4.801s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/detail/my_srv__type_support.c
+[4.801s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/detail/my_srv__rosidl_typesupport_introspection_c.h
+[4.801s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/lib/libros_study_msgs__rosidl_typesupport_introspection_c.so
+[4.801s] -- Set runtime path of "/home/ubunut2204/ros2_ws/install/ros_study_msgs/lib/libros_study_msgs__rosidl_typesupport_introspection_c.so" to ""
+[4.801s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/lib/libros_study_msgs__rosidl_typesupport_c.so
+[4.801s] -- Set runtime path of "/home/ubunut2204/ros2_ws/install/ros_study_msgs/lib/libros_study_msgs__rosidl_typesupport_c.so" to ""
+[4.802s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs
+[4.802s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg
+[4.802s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/my_msg.hpp
+[4.802s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/detail
+[4.802s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/detail/my_msg__traits.hpp
+[4.803s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/detail/my_msg__builder.hpp
+[4.803s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/detail/my_msg__struct.hpp
+[4.804s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/detail/my_msg__type_support.hpp
+[4.804s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.804s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action
+[4.804s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/my_action.hpp
+[4.805s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/detail
+[4.805s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/detail/my_action__type_support.hpp
+[4.805s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/detail/my_action__traits.hpp
+[4.805s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/detail/my_action__struct.hpp
+[4.805s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/detail/my_action__builder.hpp
+[4.805s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv
+[4.805s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/my_srv.hpp
+[4.805s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/detail
+[4.806s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/detail/my_srv__traits.hpp
+[4.806s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/detail/my_srv__type_support.hpp
+[4.806s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/detail/my_srv__builder.hpp
+[4.806s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/detail/my_srv__struct.hpp
+[4.806s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs
+[4.806s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg
+[4.806s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/detail
+[4.806s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/detail/dds_fastrtps
+[4.807s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/detail/my_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[4.807s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.807s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action
+[4.807s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/detail
+[4.807s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/detail/dds_fastrtps
+[4.807s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/detail/my_action__rosidl_typesupport_fastrtps_cpp.hpp
+[4.807s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv
+[4.807s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/detail
+[4.807s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/detail/dds_fastrtps
+[4.807s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/detail/my_srv__rosidl_typesupport_fastrtps_cpp.hpp
+[4.807s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/lib/libros_study_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.808s] -- Set runtime path of "/home/ubunut2204/ros2_ws/install/ros_study_msgs/lib/libros_study_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.808s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs
+[4.808s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg
+[4.808s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/detail
+[4.808s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/detail/my_msg__type_support.cpp
+[4.808s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/msg/detail/my_msg__rosidl_typesupport_introspection_cpp.hpp
+[4.809s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action
+[4.809s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/detail
+[4.809s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/detail/my_action__type_support.cpp
+[4.810s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/action/detail/my_action__rosidl_typesupport_introspection_cpp.hpp
+[4.810s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv
+[4.810s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/detail
+[4.810s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/detail/my_srv__type_support.cpp
+[4.810s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/include/ros_study_msgs/ros_study_msgs/srv/detail/my_srv__rosidl_typesupport_introspection_cpp.hpp
+[4.810s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/lib/libros_study_msgs__rosidl_typesupport_introspection_cpp.so
+[4.810s] -- Set runtime path of "/home/ubunut2204/ros2_ws/install/ros_study_msgs/lib/libros_study_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[4.810s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/lib/libros_study_msgs__rosidl_typesupport_cpp.so
+[4.810s] -- Set runtime path of "/home/ubunut2204/ros2_ws/install/ros_study_msgs/lib/libros_study_msgs__rosidl_typesupport_cpp.so" to ""
+[4.810s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/environment/pythonpath.sh
+[4.810s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/environment/pythonpath.dsv
+[4.810s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs-0.0.0-py3.10.egg-info
+[4.810s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.810s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[4.810s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[4.810s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.810s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs
+[4.810s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[4.810s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/ros_study_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.810s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/msg
+[4.811s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/msg/_my_msg_s.c
+[4.811s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/msg/_my_msg.py
+[4.811s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/msg/__init__.py
+[4.811s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/libros_study_msgs__rosidl_generator_py.so
+[4.811s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.811s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/ros_study_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.811s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_c.c
+[4.811s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/action
+[4.811s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/action/_my_action.py
+[4.811s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/action/_my_action_s.c
+[4.811s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/action/__init__.py
+[4.811s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/__init__.py
+[4.811s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/srv
+[4.811s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/srv/_my_srv_s.c
+[4.811s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/srv/_my_srv.py
+[4.811s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/srv/__init__.py
+[4.811s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/ros_study_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.851s] Listing '/home/ubunut2204/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs'...
+[4.852s] Compiling '/home/ubunut2204/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/__init__.py'...
+[4.852s] Listing '/home/ubunut2204/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/action'...
+[4.852s] Compiling '/home/ubunut2204/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/action/__init__.py'...
+[4.852s] Compiling '/home/ubunut2204/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/action/_my_action.py'...
+[4.852s] Listing '/home/ubunut2204/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/msg'...
+[4.852s] Compiling '/home/ubunut2204/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/msg/__init__.py'...
+[4.852s] Compiling '/home/ubunut2204/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/msg/_my_msg.py'...
+[4.852s] Listing '/home/ubunut2204/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/srv'...
+[4.852s] Compiling '/home/ubunut2204/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/srv/__init__.py'...
+[4.852s] Compiling '/home/ubunut2204/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/srv/_my_srv.py'...
+[4.856s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/ros_study_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.857s] -- Set runtime path of "/home/ubunut2204/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/ros_study_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.857s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/ros_study_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.857s] -- Set runtime path of "/home/ubunut2204/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/ros_study_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.857s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/ros_study_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.857s] -- Set runtime path of "/home/ubunut2204/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages/ros_study_msgs/ros_study_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.857s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/lib/libros_study_msgs__rosidl_generator_py.so
+[4.857s] -- Set runtime path of "/home/ubunut2204/ros2_ws/install/ros_study_msgs/lib/libros_study_msgs__rosidl_generator_py.so" to ""
+[4.857s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ament_index/resource_index/rust_packages/ros_study_msgs
+[4.858s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/rust
+[4.858s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/rust/src
+[4.858s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/rust/src/srv.rs
+[4.858s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/rust/src/action.rs
+[4.858s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/rust/src/msg.rs
+[4.858s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/rust/src/msg
+[4.858s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/rust/src/msg/rmw.rs
+[4.858s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/rust/src/action
+[4.859s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/rust/src/action/rmw.rs
+[4.859s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/rust/src/srv
+[4.859s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/rust/src/srv/rmw.rs
+[4.859s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/rust/src/lib.rs
+[4.860s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/rust/build.rs
+[4.860s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/rust/Cargo.toml
+[4.860s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/msg/MyMsg.idl
+[4.860s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/srv/MySrv.idl
+[4.860s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/action/MyAction.idl
+[4.861s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/msg/MyMsg.msg
+[4.861s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/srv/MySrv.srv
+[4.861s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/srv/MySrv_Request.msg
+[4.861s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/srv/MySrv_Response.msg
+[4.861s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/action/MyAction.action
+[4.862s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ament_index/resource_index/package_run_dependencies/ros_study_msgs
+[4.862s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ament_index/resource_index/parent_prefix_path/ros_study_msgs
+[4.862s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/environment/ament_prefix_path.sh
+[4.863s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/environment/ament_prefix_path.dsv
+[4.863s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/environment/path.sh
+[4.863s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/environment/path.dsv
+[4.863s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/local_setup.bash
+[4.864s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/local_setup.sh
+[4.864s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/local_setup.zsh
+[4.864s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/local_setup.dsv
+[4.864s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/package.dsv
+[4.864s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ament_index/resource_index/packages/ros_study_msgs
+[4.864s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/export_ros_study_msgs__rosidl_generator_cExport.cmake
+[4.864s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/export_ros_study_msgs__rosidl_generator_cExport-noconfig.cmake
+[4.864s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/export_ros_study_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[4.864s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/export_ros_study_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.864s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/ros_study_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.864s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/ros_study_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.864s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/ros_study_msgs__rosidl_typesupport_cExport.cmake
+[4.864s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/ros_study_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[4.864s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/export_ros_study_msgs__rosidl_generator_cppExport.cmake
+[4.864s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/export_ros_study_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.864s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/export_ros_study_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.864s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/ros_study_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.864s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/ros_study_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.864s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/ros_study_msgs__rosidl_typesupport_cppExport.cmake
+[4.865s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/ros_study_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[4.865s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/export_ros_study_msgs__rosidl_generator_pyExport.cmake
+[4.865s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/export_ros_study_msgs__rosidl_generator_pyExport-noconfig.cmake
+[4.865s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/rosidl_cmake-extras.cmake
+[4.865s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.866s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.866s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.866s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.866s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.866s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.866s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/ros_study_msgsConfig.cmake
+[4.867s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/cmake/ros_study_msgsConfig-version.cmake
+[4.867s] -- Installing: /home/ubunut2204/ros2_ws/install/ros_study_msgs/share/ros_study_msgs/package.xml
+[4.868s] Invoked command in '/home/ubunut2204/ros2_ws/build/ros_study_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubunut2204/ros2_ws/build/ros_study_msgs

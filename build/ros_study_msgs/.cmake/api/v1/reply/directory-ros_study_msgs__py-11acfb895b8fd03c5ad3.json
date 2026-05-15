@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ros_study_msgs__py",
+		"source" : "/home/ubunut2204/ros2_ws/build/ros_study_msgs/ros_study_msgs__py"
+	}
+}
