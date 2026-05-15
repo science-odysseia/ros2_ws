@@ -23,7 +23,7 @@ sudo apt install git
 
 ### 2. 설치파일 권한 부여 및 실행
 
-설치파일이 있는 경로(ROS_install_files)로 이동한 후
+설치파일이 있는 경로(ROS2_install_files)로 이동한 후
 
 아래 명령어로 ros2-humble-desktop-main.sh의 실행 권한을 부여하고
 
