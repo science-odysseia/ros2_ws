@@ -1,0 +1,354 @@
+[0.009s] Invoking command in '/home/ubunut2204/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubunut2204/ros2_ws/build/my_robot_interfaces -- -j16 -l16
+[0.027s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.122s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.123s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.125s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.262s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.283s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.291s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.614s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.826s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.093s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.200s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.203s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.504s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.505s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.505s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.505s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.522s] -- Found PythonExtra: .so  
+[1.654s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.677s] -- Added test 'lint_cmake' to check CMake code style
+[1.678s] -- Added test 'xmllint' to check XML markup files
+[1.681s] -- Configuring done
+[1.740s] -- Generating done
+[1.752s] -- Build files have been written to: /home/ubunut2204/ros2_ws/build/my_robot_interfaces
+[1.774s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.785s] [  3%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[1.785s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.795s] [  5%] Built target ament_cmake_python_copy_my_robot_interfaces
+[2.008s] running egg_info
+[2.009s] creating my_robot_interfaces.egg-info
+[2.009s] writing my_robot_interfaces.egg-info/PKG-INFO
+[2.010s] writing dependency_links to my_robot_interfaces.egg-info/dependency_links.txt
+[2.011s] writing top-level names to my_robot_interfaces.egg-info/top_level.txt
+[2.011s] writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[2.015s] reading manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[2.016s] writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[2.057s] [  5%] Built target ament_cmake_python_build_my_robot_interfaces_egg
+[2.125s] [  5%] Built target my_robot_interfaces__rs
+[2.432s] [  5%] Built target my_robot_interfaces__cpp
+[2.443s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.443s] [  8%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.447s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.470s] [ 12%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/add_two_ints__functions.c.o[0m
+[2.471s] [ 14%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/action/detail/switch_control__functions.c.o[0m
+[2.471s] [ 16%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/action/detail/navigate__functions.c.o[0m
+[2.472s] [ 17%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/status__functions.c.o[0m
+[2.697s] [ 19%] [32m[1mLinking C shared library libmy_robot_interfaces__rosidl_generator_c.so[0m
+[2.814s] [ 19%] Built target my_robot_interfaces__rosidl_generator_c
+[2.824s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.825s] [ 25%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/action/switch_control__type_support.cpp.o[0m
+[2.825s] [ 25%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/srv/add_two_ints__type_support.cpp.o[0m
+[2.825s] [ 26%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/action/navigate__type_support.cpp.o[0m
+[2.826s] [ 28%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/status__type_support.cpp.o[0m
+[2.828s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.828s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.980s] [ 33%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/status__type_support.cpp.o[0m
+[2.984s] [ 35%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/action/detail/switch_control__type_support.cpp.o[0m
+[2.984s] [ 37%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/add_two_ints__type_support.cpp.o[0m
+[2.985s] [ 39%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/action/detail/navigate__type_support.cpp.o[0m
+[3.286s] [ 41%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/status__type_support.cpp.o[0m
+[3.286s] [ 42%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/action/detail/dds_fastrtps/switch_control__type_support.cpp.o[0m
+[3.293s] [ 44%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/action/detail/dds_fastrtps/navigate__type_support.cpp.o[0m
+[3.304s] [ 46%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o[0m
+[3.659s] [ 48%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/msg/status__type_support.cpp.o[0m
+[3.662s] [ 50%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/srv/add_two_ints__type_support.cpp.o[0m
+[3.677s] [ 51%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/action/switch_control__type_support.cpp.o[0m
+[3.704s] [ 53%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/action/navigate__type_support.cpp.o[0m
+[3.811s] [ 55%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_c.so[0m
+[3.973s] [ 58%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/status__type_support.c.o[0m
+[3.973s] [ 58%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/action/detail/switch_control__type_support.c.o[0m
+[3.977s] [ 60%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/add_two_ints__type_support.c.o[0m
+[3.982s] [ 62%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/action/detail/navigate__type_support.c.o[0m
+[4.080s] [ 62%] Built target my_robot_interfaces__rosidl_typesupport_c
+[4.107s] [ 64%] [32m[1mLinking C shared library libmy_robot_interfaces__rosidl_typesupport_introspection_c.so[0m
+[4.170s] [ 66%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_cpp.so[0m
+[4.212s] [ 71%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/add_two_ints__type_support_c.cpp.o[0m
+[4.213s] [ 71%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/action/detail/navigate__type_support_c.cpp.o[0m
+[4.213s] [ 71%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/status__type_support_c.cpp.o[0m
+[4.213s] [ 73%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/action/detail/switch_control__type_support_c.cpp.o[0m
+[4.292s] [ 73%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c
+[4.305s] [ 75%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.381s] [ 75%] Built target my_robot_interfaces__rosidl_typesupport_cpp
+[4.513s] [ 76%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.548s] [ 76%] Built target my_robot_interfaces__rosidl_typesupport_introspection_cpp
+[4.703s] [ 76%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.770s] [ 78%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.905s] [ 78%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c
+[4.922s] [ 78%] Built target my_robot_interfaces
+[4.942s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.992s] [ 80%] Built target my_robot_interfaces__py
+[6.014s] [ 83%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/msg/_status_s.c.o[0m
+[6.014s] [ 83%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/srv/_add_two_ints_s.c.o[0m
+[6.014s] [ 85%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/action/_switch_control_s.c.o[0m
+[6.018s] [ 87%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/action/_navigate_s.c.o[0m
+[6.220s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/libmy_robot_interfaces__rosidl_generator_py.so[0m
+[6.317s] [ 89%] Built target my_robot_interfaces__rosidl_generator_py
+[6.334s] [ 92%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.334s] [ 92%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.336s] [ 94%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[6.478s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.481s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.486s] [100%] [32m[1mLinking C shared library rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.550s] [100%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[6.554s] [100%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c__pyext
+[6.574s] [100%] Built target my_robot_interfaces__rosidl_typesupport_c__pyext
+[6.586s] Invoked command in '/home/ubunut2204/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubunut2204/ros2_ws/build/my_robot_interfaces -- -j16 -l16
+[6.595s] Invoking command in '/home/ubunut2204/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubunut2204/ros2_ws/build/my_robot_interfaces
+[6.601s] -- Install configuration: ""
+[6.602s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_robot_interfaces
+[6.602s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[6.602s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[6.602s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[6.603s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/status__struct.h
+[6.603s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/status__functions.h
+[6.603s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/status__type_support.h
+[6.603s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/status__functions.c
+[6.603s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[6.604s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/status.h
+[6.604s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action
+[6.604s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/switch_control.h
+[6.604s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail
+[6.605s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/navigate__struct.h
+[6.605s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/switch_control__struct.h
+[6.605s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/navigate__functions.c
+[6.605s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/navigate__functions.h
+[6.605s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/switch_control__type_support.h
+[6.605s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/switch_control__functions.c
+[6.605s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/navigate__type_support.h
+[6.605s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/switch_control__functions.h
+[6.605s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/navigate.h
+[6.605s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[6.606s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[6.606s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/add_two_ints__functions.c
+[6.606s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/add_two_ints__functions.h
+[6.606s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/add_two_ints__type_support.h
+[6.606s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/add_two_ints__struct.h
+[6.606s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/add_two_ints.h
+[6.606s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.sh
+[6.606s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.dsv
+[6.606s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so
+[6.607s] -- Set runtime path of "/home/ubunut2204/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so" to ""
+[6.607s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[6.607s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[6.607s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[6.607s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/status__rosidl_typesupport_fastrtps_c.h
+[6.607s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.607s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action
+[6.607s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail
+[6.608s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/switch_control__rosidl_typesupport_fastrtps_c.h
+[6.608s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/navigate__rosidl_typesupport_fastrtps_c.h
+[6.608s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[6.608s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[6.608s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h
+[6.608s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so
+[6.608s] -- Set runtime path of "/home/ubunut2204/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[6.609s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[6.609s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[6.609s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[6.609s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/status__type_support.c
+[6.609s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/status__rosidl_typesupport_introspection_c.h
+[6.609s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.609s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action
+[6.610s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail
+[6.610s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/navigate__type_support.c
+[6.610s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/switch_control__rosidl_typesupport_introspection_c.h
+[6.610s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/switch_control__type_support.c
+[6.610s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/navigate__rosidl_typesupport_introspection_c.h
+[6.610s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[6.610s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[6.610s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/add_two_ints__type_support.c
+[6.611s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h
+[6.611s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so
+[6.611s] -- Set runtime path of "/home/ubunut2204/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[6.611s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so
+[6.611s] -- Set runtime path of "/home/ubunut2204/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so" to ""
+[6.611s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[6.611s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[6.611s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[6.612s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/status__type_support.hpp
+[6.612s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/status__builder.hpp
+[6.612s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/status__struct.hpp
+[6.612s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/status__traits.hpp
+[6.613s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/status.hpp
+[6.613s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.613s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action
+[6.613s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/navigate.hpp
+[6.613s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail
+[6.613s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/navigate__traits.hpp
+[6.613s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/navigate__type_support.hpp
+[6.613s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/navigate__builder.hpp
+[6.613s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/switch_control__type_support.hpp
+[6.613s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/switch_control__struct.hpp
+[6.613s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/switch_control__builder.hpp
+[6.613s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/navigate__struct.hpp
+[6.613s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/switch_control__traits.hpp
+[6.614s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/switch_control.hpp
+[6.614s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[6.614s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[6.614s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/add_two_ints__type_support.hpp
+[6.614s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/add_two_ints__builder.hpp
+[6.614s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/add_two_ints__struct.hpp
+[6.614s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/add_two_ints__traits.hpp
+[6.614s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/add_two_ints.hpp
+[6.614s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[6.614s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[6.614s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[6.614s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/dds_fastrtps
+[6.615s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/status__rosidl_typesupport_fastrtps_cpp.hpp
+[6.615s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.615s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action
+[6.615s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail
+[6.615s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/switch_control__rosidl_typesupport_fastrtps_cpp.hpp
+[6.615s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/dds_fastrtps
+[6.615s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/navigate__rosidl_typesupport_fastrtps_cpp.hpp
+[6.615s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[6.615s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[6.616s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/dds_fastrtps
+[6.616s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[6.616s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[6.616s] -- Set runtime path of "/home/ubunut2204/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.616s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[6.616s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[6.616s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[6.616s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp
+[6.616s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/status__type_support.cpp
+[6.616s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action
+[6.616s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail
+[6.617s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/navigate__type_support.cpp
+[6.617s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/switch_control__type_support.cpp
+[6.617s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/switch_control__rosidl_typesupport_introspection_cpp.hpp
+[6.617s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/navigate__rosidl_typesupport_introspection_cpp.hpp
+[6.617s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[6.617s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[6.617s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/add_two_ints__type_support.cpp
+[6.618s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp
+[6.618s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so
+[6.618s] -- Set runtime path of "/home/ubunut2204/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[6.618s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so
+[6.618s] -- Set runtime path of "/home/ubunut2204/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so" to ""
+[6.618s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.sh
+[6.618s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.dsv
+[6.618s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info
+[6.618s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.619s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[6.619s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[6.619s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.619s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces
+[6.619s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.619s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.619s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.619s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.619s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/libmy_robot_interfaces__rosidl_generator_py.so
+[6.619s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg
+[6.619s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_status_s.c
+[6.620s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/__init__.py
+[6.620s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_status.py
+[6.620s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[6.620s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c
+[6.620s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/action
+[6.620s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/action/_navigate_s.c
+[6.620s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/action/_switch_control_s.c
+[6.620s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/action/_navigate.py
+[6.621s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/action/_switch_control.py
+[6.621s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/action/__init__.py
+[6.621s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/__init__.py
+[6.621s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv
+[6.621s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/_add_two_ints_s.c
+[6.621s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/_add_two_ints.py
+[6.621s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/__init__.py
+[6.663s] Listing '/home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces'...
+[6.663s] Compiling '/home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/__init__.py'...
+[6.663s] Listing '/home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/action'...
+[6.664s] Compiling '/home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/action/__init__.py'...
+[6.664s] Compiling '/home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/action/_navigate.py'...
+[6.664s] Compiling '/home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/action/_switch_control.py'...
+[6.664s] Listing '/home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg'...
+[6.664s] Compiling '/home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/__init__.py'...
+[6.664s] Compiling '/home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_status.py'...
+[6.664s] Listing '/home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv'...
+[6.664s] Compiling '/home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/__init__.py'...
+[6.664s] Compiling '/home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/_add_two_ints.py'...
+[6.667s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.668s] -- Set runtime path of "/home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.668s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.668s] -- Set runtime path of "/home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.668s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.668s] -- Set runtime path of "/home/ubunut2204/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.668s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so
+[6.669s] -- Set runtime path of "/home/ubunut2204/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so" to ""
+[6.669s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/rust_packages/my_robot_interfaces
+[6.669s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/rust
+[6.669s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/rust/src
+[6.669s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/rust/src/srv.rs
+[6.669s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/rust/src/action.rs
+[6.670s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/rust/src/msg.rs
+[6.670s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/rust/src/msg
+[6.670s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/rust/src/msg/rmw.rs
+[6.670s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/rust/src/action
+[6.670s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/rust/src/action/rmw.rs
+[6.670s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/rust/src/srv
+[6.670s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/rust/src/srv/rmw.rs
+[6.671s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/rust/src/lib.rs
+[6.671s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/rust/build.rs
+[6.671s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/rust/Cargo.toml
+[6.671s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/Status.idl
+[6.671s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/AddTwoInts.idl
+[6.671s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/action/SwitchControl.idl
+[6.671s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/action/Navigate.idl
+[6.671s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/Status.msg
+[6.671s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/AddTwoInts.srv
+[6.671s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/AddTwoInts_Request.msg
+[6.672s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/AddTwoInts_Response.msg
+[6.672s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/action/SwitchControl.action
+[6.672s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/action/Navigate.action
+[6.672s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces
+[6.672s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/parent_prefix_path/my_robot_interfaces
+[6.672s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.sh
+[6.672s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.dsv
+[6.673s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.sh
+[6.673s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.dsv
+[6.673s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.bash
+[6.673s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.sh
+[6.673s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.zsh
+[6.673s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.dsv
+[6.673s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv
+[6.673s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/packages/my_robot_interfaces
+[6.673s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport.cmake
+[6.673s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[6.673s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[6.674s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.674s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[6.674s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.674s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport.cmake
+[6.674s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[6.674s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cppExport.cmake
+[6.674s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.674s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.675s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[6.675s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.675s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport.cmake
+[6.675s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[6.675s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport.cmake
+[6.675s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[6.675s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake-extras.cmake
+[6.676s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.676s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.676s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[6.676s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[6.676s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.676s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.676s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig.cmake
+[6.676s] -- Up-to-date: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig-version.cmake
+[6.676s] -- Installing: /home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.xml
+[6.681s] Invoked command in '/home/ubunut2204/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubunut2204/ros2_ws/build/my_robot_interfaces

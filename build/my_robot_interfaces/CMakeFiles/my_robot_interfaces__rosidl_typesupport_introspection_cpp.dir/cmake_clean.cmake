@@ -1,0 +1,25 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/action/detail/navigate__type_support.cpp.o"
+  "CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/action/detail/navigate__type_support.cpp.o.d"
+  "CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/action/detail/switch_control__type_support.cpp.o"
+  "CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/action/detail/switch_control__type_support.cpp.o.d"
+  "CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/status__type_support.cpp.o"
+  "CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/status__type_support.cpp.o.d"
+  "CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/add_two_ints__type_support.cpp.o"
+  "CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/add_two_ints__type_support.cpp.o.d"
+  "libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.pdb"
+  "libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so"
+  "rosidl_typesupport_introspection_cpp/my_robot_interfaces/action/detail/navigate__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/my_robot_interfaces/action/detail/navigate__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/my_robot_interfaces/action/detail/switch_control__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/my_robot_interfaces/action/detail/switch_control__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/status__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/add_two_ints__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

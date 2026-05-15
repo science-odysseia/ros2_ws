@@ -1,0 +1,4 @@
+/home/ubunut2204/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/Status.idl
+/home/ubunut2204/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/AddTwoInts.idl
+/home/ubunut2204/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:action/SwitchControl.idl
+/home/ubunut2204/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:action/Navigate.idl

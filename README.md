@@ -289,7 +289,9 @@ Goal(목표) → Feedback(진행상황) → Result(최종결과) 구조를 가�
 
 `.action` 형식을 사용한다.
 
-`action`의 양식은 `srv`와 비슷하게 \-\-\-로 구분되는 구조를 지니지만, 3부분으로 나뉘며, 위에서부터 순서대로 Goal/Result/Feedback으로 구분된다.
+`action`의 양식은 `srv`와 비슷하게 \-\-\-로 구분되는 구조를 지니지만, 3부분으로 나뉘며, 
+
+위에서부터 순서대로 Goal/Result/Feedback으로 구분된다.
 
     int32 order
     ---
@@ -309,6 +311,3 @@ rosidl_generate_interfaces()가 해주는데,
 
 인터페이스 패키지를 빌드할 때에는 ament_python이 아닌 `ament_cmake`로 빌드해준다.
 
-
-
-aaaaaaasssssssdddddd
