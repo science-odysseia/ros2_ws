@@ -1,0 +1,15 @@
+/home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces
+/home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/parent_prefix_path/my_robot_interfaces
+/home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.sh
+/home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.dsv
+/home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.sh
+/home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.dsv
+/home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.bash
+/home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.sh
+/home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.zsh
+/home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.dsv
+/home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv
+/home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/packages/my_robot_interfaces
+/home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig.cmake
+/home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig-version.cmake
+/home/ubunut2204/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.xml

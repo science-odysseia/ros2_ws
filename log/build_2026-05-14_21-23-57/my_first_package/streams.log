@@ -1,0 +1,44 @@
+[0.591s] Invoking command in '/home/ubunut2204/ros2_ws/build/my_first_package': PYTHONPATH=/home/ubunut2204/ros2_ws/build/my_first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubunut2204/ros2_ws/install/my_first_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ubunut2204/ros2_ws/build/my_first_package/build
+[0.774s] running develop
+[0.862s] Removing /home/ubunut2204/ros2_ws/install/my_first_package/lib/python3.10/site-packages/my-first-package.egg-link (link to .)
+[0.879s] Invoked command in '/home/ubunut2204/ros2_ws/build/my_first_package' returned '0': PYTHONPATH=/home/ubunut2204/ros2_ws/build/my_first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubunut2204/ros2_ws/install/my_first_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ubunut2204/ros2_ws/build/my_first_package/build
+[0.881s] Invoking command in '/home/ubunut2204/ros2_ws/src/my_first_package': PYTHONPATH=/home/ubunut2204/ros2_ws/build/my_first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubunut2204/ros2_ws/install/my_first_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_package build --build-base /home/ubunut2204/ros2_ws/build/my_first_package/build install --record /home/ubunut2204/ros2_ws/build/my_first_package/install.log --single-version-externally-managed install_data --force
+[1.034s] running egg_info
+[1.035s] writing ../../build/my_first_package/my_first_package.egg-info/PKG-INFO
+[1.036s] writing dependency_links to ../../build/my_first_package/my_first_package.egg-info/dependency_links.txt
+[1.036s] writing entry points to ../../build/my_first_package/my_first_package.egg-info/entry_points.txt
+[1.036s] writing requirements to ../../build/my_first_package/my_first_package.egg-info/requires.txt
+[1.036s] writing top-level names to ../../build/my_first_package/my_first_package.egg-info/top_level.txt
+[1.038s] reading manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[1.039s] writing manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[1.040s] running build
+[1.040s] running build_py
+[1.040s] creating /home/ubunut2204/ros2_ws/build/my_first_package/build
+[1.040s] creating /home/ubunut2204/ros2_ws/build/my_first_package/build/lib
+[1.040s] creating /home/ubunut2204/ros2_ws/build/my_first_package/build/lib/my_first_package
+[1.040s] copying my_first_package/my_first_publisher.py -> /home/ubunut2204/ros2_ws/build/my_first_package/build/lib/my_first_package
+[1.040s] copying my_first_package/my_first_subscriber.py -> /home/ubunut2204/ros2_ws/build/my_first_package/build/lib/my_first_package
+[1.041s] copying my_first_package/my_first_node.py -> /home/ubunut2204/ros2_ws/build/my_first_package/build/lib/my_first_package
+[1.041s] copying my_first_package/__init__.py -> /home/ubunut2204/ros2_ws/build/my_first_package/build/lib/my_first_package
+[1.041s] running install
+[1.042s] running install_lib
+[1.043s] creating /home/ubunut2204/ros2_ws/install/my_first_package/lib/python3.10/site-packages/my_first_package
+[1.043s] copying /home/ubunut2204/ros2_ws/build/my_first_package/build/lib/my_first_package/my_first_publisher.py -> /home/ubunut2204/ros2_ws/install/my_first_package/lib/python3.10/site-packages/my_first_package
+[1.043s] copying /home/ubunut2204/ros2_ws/build/my_first_package/build/lib/my_first_package/my_first_subscriber.py -> /home/ubunut2204/ros2_ws/install/my_first_package/lib/python3.10/site-packages/my_first_package
+[1.043s] copying /home/ubunut2204/ros2_ws/build/my_first_package/build/lib/my_first_package/my_first_node.py -> /home/ubunut2204/ros2_ws/install/my_first_package/lib/python3.10/site-packages/my_first_package
+[1.043s] copying /home/ubunut2204/ros2_ws/build/my_first_package/build/lib/my_first_package/__init__.py -> /home/ubunut2204/ros2_ws/install/my_first_package/lib/python3.10/site-packages/my_first_package
+[1.044s] byte-compiling /home/ubunut2204/ros2_ws/install/my_first_package/lib/python3.10/site-packages/my_first_package/my_first_publisher.py to my_first_publisher.cpython-310.pyc
+[1.044s] byte-compiling /home/ubunut2204/ros2_ws/install/my_first_package/lib/python3.10/site-packages/my_first_package/my_first_subscriber.py to my_first_subscriber.cpython-310.pyc
+[1.045s] byte-compiling /home/ubunut2204/ros2_ws/install/my_first_package/lib/python3.10/site-packages/my_first_package/my_first_node.py to my_first_node.cpython-310.pyc
+[1.045s] byte-compiling /home/ubunut2204/ros2_ws/install/my_first_package/lib/python3.10/site-packages/my_first_package/__init__.py to __init__.cpython-310.pyc
+[1.045s] running install_data
+[1.045s] copying resource/my_first_package -> /home/ubunut2204/ros2_ws/install/my_first_package/share/ament_index/resource_index/packages
+[1.046s] copying package.xml -> /home/ubunut2204/ros2_ws/install/my_first_package/share/my_first_package
+[1.046s] running install_egg_info
+[1.048s] Copying ../../build/my_first_package/my_first_package.egg-info to /home/ubunut2204/ros2_ws/install/my_first_package/lib/python3.10/site-packages/my_first_package-0.0.0-py3.10.egg-info
+[1.049s] running install_scripts
+[1.067s] Installing my_first_node script to /home/ubunut2204/ros2_ws/install/my_first_package/lib/my_first_package
+[1.067s] Installing my_publisher script to /home/ubunut2204/ros2_ws/install/my_first_package/lib/my_first_package
+[1.067s] Installing my_subscriber script to /home/ubunut2204/ros2_ws/install/my_first_package/lib/my_first_package
+[1.067s] writing list of installed files to '/home/ubunut2204/ros2_ws/build/my_first_package/install.log'
+[1.087s] Invoked command in '/home/ubunut2204/ros2_ws/src/my_first_package' returned '0': PYTHONPATH=/home/ubunut2204/ros2_ws/build/my_first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubunut2204/ros2_ws/install/my_first_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_package build --build-base /home/ubunut2204/ros2_ws/build/my_first_package/build install --record /home/ubunut2204/ros2_ws/build/my_first_package/install.log --single-version-externally-managed install_data --force

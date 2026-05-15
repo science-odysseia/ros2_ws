@@ -1,0 +1,9 @@
+/home/ubunut2204/ros2_ws/build/my_robot_interfaces/CMakeFiles/uninstall.dir
+/home/ubunut2204/ros2_ws/build/my_robot_interfaces/CMakeFiles/my_robot_interfaces_uninstall.dir
+/home/ubunut2204/ros2_ws/build/my_robot_interfaces/CMakeFiles/test.dir
+/home/ubunut2204/ros2_ws/build/my_robot_interfaces/CMakeFiles/edit_cache.dir
+/home/ubunut2204/ros2_ws/build/my_robot_interfaces/CMakeFiles/rebuild_cache.dir
+/home/ubunut2204/ros2_ws/build/my_robot_interfaces/CMakeFiles/list_install_components.dir
+/home/ubunut2204/ros2_ws/build/my_robot_interfaces/CMakeFiles/install.dir
+/home/ubunut2204/ros2_ws/build/my_robot_interfaces/CMakeFiles/install/local.dir
+/home/ubunut2204/ros2_ws/build/my_robot_interfaces/CMakeFiles/install/strip.dir
