@@ -17,6 +17,7 @@ class CameraSubscriber(Node):
 
     def listener_callback(self, msg):
         frame = self.bridge.imgmsg_to_cv2(msg, desired_encoding='bgr8')
+        cv2.imshow('cam', frame)
         
         cv2.waitKey(1)
         
