@@ -1,3 +1,0 @@
-int32 battery_level
-bool is_charging
-string robot_name

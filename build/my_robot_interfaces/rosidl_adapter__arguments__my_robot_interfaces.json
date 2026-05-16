@@ -1,9 +1,0 @@
-{
-  "package_name": "my_robot_interfaces",
-  "non_idl_tuples": [
-    "/home/ubunut2204/ros2_ws/src/my_robot_interfaces:msg/Status.msg",
-    "/home/ubunut2204/ros2_ws/src/my_robot_interfaces:srv/AddTwoInts.srv",
-    "/home/ubunut2204/ros2_ws/src/my_robot_interfaces:action/SwitchControl.action",
-    "/home/ubunut2204/ros2_ws/src/my_robot_interfaces:action/Navigate.action"
-  ]
-}
