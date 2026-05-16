@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/my_cam_pubsub/my_cam_pubsub.egg-info
+writing ../../build/my_cam_pubsub/my_cam_pubsub.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_cam_pubsub/my_cam_pubsub.egg-info/dependency_links.txt
+writing entry points to ../../build/my_cam_pubsub/my_cam_pubsub.egg-info/entry_points.txt
+writing requirements to ../../build/my_cam_pubsub/my_cam_pubsub.egg-info/requires.txt
+writing top-level names to ../../build/my_cam_pubsub/my_cam_pubsub.egg-info/top_level.txt
+writing manifest file '../../build/my_cam_pubsub/my_cam_pubsub.egg-info/SOURCES.txt'
+reading manifest file '../../build/my_cam_pubsub/my_cam_pubsub.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_cam_pubsub/my_cam_pubsub.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ubunut2204/ros2_ws/build/my_cam_pubsub/build
+creating /home/ubunut2204/ros2_ws/build/my_cam_pubsub/build/lib
+creating /home/ubunut2204/ros2_ws/build/my_cam_pubsub/build/lib/my_cam_pubsub
+copying my_cam_pubsub/cam_pub.py -> /home/ubunut2204/ros2_ws/build/my_cam_pubsub/build/lib/my_cam_pubsub
+copying my_cam_pubsub/__init__.py -> /home/ubunut2204/ros2_ws/build/my_cam_pubsub/build/lib/my_cam_pubsub
+copying my_cam_pubsub/cam_sub.py -> /home/ubunut2204/ros2_ws/build/my_cam_pubsub/build/lib/my_cam_pubsub
+running install
+running install_lib
+creating /home/ubunut2204/ros2_ws/install/my_cam_pubsub/lib/python3.10/site-packages/my_cam_pubsub
+copying /home/ubunut2204/ros2_ws/build/my_cam_pubsub/build/lib/my_cam_pubsub/cam_pub.py -> /home/ubunut2204/ros2_ws/install/my_cam_pubsub/lib/python3.10/site-packages/my_cam_pubsub
+copying /home/ubunut2204/ros2_ws/build/my_cam_pubsub/build/lib/my_cam_pubsub/__init__.py -> /home/ubunut2204/ros2_ws/install/my_cam_pubsub/lib/python3.10/site-packages/my_cam_pubsub
+copying /home/ubunut2204/ros2_ws/build/my_cam_pubsub/build/lib/my_cam_pubsub/cam_sub.py -> /home/ubunut2204/ros2_ws/install/my_cam_pubsub/lib/python3.10/site-packages/my_cam_pubsub
+byte-compiling /home/ubunut2204/ros2_ws/install/my_cam_pubsub/lib/python3.10/site-packages/my_cam_pubsub/cam_pub.py to cam_pub.cpython-310.pyc
+byte-compiling /home/ubunut2204/ros2_ws/install/my_cam_pubsub/lib/python3.10/site-packages/my_cam_pubsub/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ubunut2204/ros2_ws/install/my_cam_pubsub/lib/python3.10/site-packages/my_cam_pubsub/cam_sub.py to cam_sub.cpython-310.pyc
+running install_data
+creating /home/ubunut2204/ros2_ws/install/my_cam_pubsub/share/ament_index
+creating /home/ubunut2204/ros2_ws/install/my_cam_pubsub/share/ament_index/resource_index
+creating /home/ubunut2204/ros2_ws/install/my_cam_pubsub/share/ament_index/resource_index/packages
+copying resource/my_cam_pubsub -> /home/ubunut2204/ros2_ws/install/my_cam_pubsub/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubunut2204/ros2_ws/install/my_cam_pubsub/share/my_cam_pubsub
+running install_egg_info
+Copying ../../build/my_cam_pubsub/my_cam_pubsub.egg-info to /home/ubunut2204/ros2_ws/install/my_cam_pubsub/lib/python3.10/site-packages/my_cam_pubsub-0.0.0-py3.10.egg-info
+running install_scripts
+Installing cam_pub script to /home/ubunut2204/ros2_ws/install/my_cam_pubsub/lib/my_cam_pubsub
+Installing cam_sub script to /home/ubunut2204/ros2_ws/install/my_cam_pubsub/lib/my_cam_pubsub
+writing list of installed files to '/home/ubunut2204/ros2_ws/build/my_cam_pubsub/install.log'
