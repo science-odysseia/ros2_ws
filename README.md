@@ -92,7 +92,7 @@ ros2 pkg create my_pkg --build-type ament_python
 또는
 
 ```bash
-# c 또는 cpp 파일의 패키지를 만들고 싶을 때
+# c 또는 c++ 파일의 패키지를 만들고 싶을 때
 ros2 pkg create my_pkg --build-type ament_cmake
 ```
 
@@ -107,7 +107,7 @@ my_node의 노드를 포함한 my_pkg 패키지 만들기
 ros2 pkg create --build-type ament_python --node-name my_node my_pkg
 ```
 ```bash
-# c/cpp
+# c/c++
 ros2 pkg create --build-type ament_python --node-name my_node my_pkg
 ```
 
@@ -135,6 +135,10 @@ ROS2 명령어를 통해 실행될 수 있게 패키지를 정리/설치하는 �
 **빌드는 반드시 워크스페이스 폴더 위치에서 해준다.**
 
 일반적으로 빌드를 하면 워크스페이스 아래 아래와 같은 폴더들이 생긴다.
+
+(여기에서는 src 폴더만 업로드되어 있습니다.) 
+
+(직접 워크스페이스를 다운받아 빌드해보시면 아래 폴더들이 생기는 것을 확인할 수 있습니다.)
 
     ros2_ws/
     ├── build/
@@ -254,6 +258,12 @@ Publisher가 데이터를 발행(Publish)하면 Subscriber가 이를 구독(Subs
 
 주로 센서 데이터 전송(카메라 영상, LiDAR 데이터 등)에 사용된다.
 
+방송 구조를 생각하면 쉽다.
+
+모두에게 들리지만, 당사자만 집중해서 듣는 구조를 생각하면 된다.
+
+따라서 여러 주제로 발행할 수 있으며, 한 주제를 여러 사람이 들을 수 있다.
+
 단방향 통신이며 `.msg` 형식을 사용한다.
 
 `msg`의 양식은 아래 예시처럼 <변수타입> <변수이름>으로 작성한다.
@@ -309,5 +319,111 @@ rosidl_generate_interfaces()가 해주는데,
 
 이것이 CMakeLists.txt 기반이기 때문에
 
-인터페이스 패키지를 빌드할 때에는 ament_python이 아닌 `ament_cmake`로 빌드해준다.
+**인터페이스 패키지를 빌드할 때에는 ament_python이 아닌 `ament_cmake`로 빌드해준다.**
+
+---
+## 패키지 생성 후 수정내용
+
+패키지를 생성한 후, 빌드 하기 전,
+
+`CMakeLists.txt`, `package.xml` 등의 설정 파일에 필요한 내용을 추가하여, 
+
+패키지 간 의존성과 빌드 환경이 정상적으로 동작하도록 설정한다.
+
+가령 예시로 바로 위 인터페이스 패키지의 경우,
+
+.msg, .srv, .action 파일을 실제 Python/C++에서 import 가능하게 해 주는
+
+rosidl_generate_interfaces()라는 함수를 사용해야 하는데
+
+단순히 텍스트의 형식으로 .msg, .srv, .action을 작성하기만 하면 사용할 수 없고,
+
+`CMakeLists.txt`, `package.xml`에 아래와 같은 내용들을 추가해야 적용할 수 있다.
+
+(`ros_study_msgs` 내용 참고.)
+
+### `package.xml`
+
+```md    
+<build_depend>rosidl_default_generators</build_depend>
+```
+
+의미 : 빌드할 때 필요한 파일을 만드는 도구
+
+이게 있어야 `CMakeLists.txt`에서 rosidl_generate_interfaces(...)가 동작할 수 있으며,
+
+rosidl_generate_interfaces(...)가 동작해야 
+
+빌드과정 이후 내가 만든 .msg, .srv, .action 파일들에 대해 실제 Python import가 가능한 코드를 생성할 수 있다.
+
+(/install, /build 폴더 안에 Python/C++ 파일들이 만들어지는 과정이다.)
+
+뒤에 `CmakeLists.txt` 내용에서 나오는 `find_package(rosidl_default_generators REQUIRED)`와 거의 세트로 작동한다.
+
+
+<br>
+
+```md
+<exec_depend>rosidl_default_runtime</exec_depend>
+```
+
+의미 : 실행할 때 필요한 런타임 인터페이스 라이브러리
+
+생성된 인터페이스 파일(.msg, .srv, .action 파일들에 대한 /install, /build 안의 Python/C++ 파일)들을
+
+ROS2 통신 시스템과 연결해주는 역할을 한다.
+
+<br>
+
+```md
+<member_of_group>rosidl_interface_packages</member_of_group>
+```
+
+의미 : ROS2의 인터페이스 패키지 그룹에 등록
+
+'이 패키지는 인터페이스 패키지입니다.' 라고 등록하는 과정이다.
+
+<br>
+
+### `CMakeLists.txt`
+
+```c
+find_package(rosidl_default_generators REQUIRED)
+```
+의미: rosidl_generate_interfaces(...)를 찾아라.(사용하겠다.)
+
+여기서 REQUIRED는 '없으면 빌드 실패시켜라'라는 의미. 즉 반드시 있어야 빌드 가능하게 만든다.
+
+```c
+find_package(builtin_interfaces REQUIRED)
+```
+의미 : builtin_interfaces 패키지도 사용하겠다.
+
+```c
+set(msg_files 
+  "msg/msg1.msg"
+  "msg/msg2.msg"
+)
+```
+msg파일 여러 개를 생성하겠다는 리스트를 작성하는 코드.(아직 생성 안함.)
+
+여기서 msg_files는 변수명이며, 바꿀 수 있다.
+
+msg 대신 srv, action을 넣어서 똑같은 형식으로 추가하면 srv, action 파일에 대해서도 적용할 수 있다.
+
+```c
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ${msg_files}
+  ${srv_files}
+  ${action_files}
+  DEPENDENCIES builtin_interfaces )
+```
+
+핵심.
+
+`${PROJECT_NAME}` : 현재 패키지 이름.
+
+`${msg_files}`, `${srv_files}`, `${action_files}` : 위에서 작성한 리스트들 목록.
+
+`DEPENDENCIES 여러 의존 패키지` : 이 인터페이스들은 `여러 의존 패키지`를 사용한다. (위 예시는 builtin_interfaces에 의존한다.)
 
