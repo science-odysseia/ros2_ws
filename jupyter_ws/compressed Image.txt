@@ -1,0 +1,8 @@
+sudo apt install ros-humble-image-transport
+sudo apt install ros-humble-image-transport-plugins
+ 
+ros2 run image_transport republish compressed raw --ros-args -r in/compressed:=/vehicle_8/camera/front_left/image/compressed -r out:=/camera/image_raw_left
+  
+ros2 run image_transport republish compressed raw --ros-args -r in/compressed:=/vehicle_8/camera/front_right/image/compressed -r out:=/camera/image_raw_right
+  
+ros2 run tf2_tools view_frames
