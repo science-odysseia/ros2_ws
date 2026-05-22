@@ -462,5 +462,23 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 
 예시로 아래부분만 아래처럼 수정하면 된다
 
+```python
+entry_points={
+        'console_scripts': [
+            'my_msg_name = ros_study_py.my_msg_test:main'
+        ],
+    }
+```
 
+ros2 run 명령어로 노드 1개를 실행할 때
 
+```bash
+ros2 run ros_study_py my_msg_name
+         (패키지 이름) (노드 이름)
+```
+
+이렇게 실행하는데
+
+여기서 `my_msg_name`은 `ros_study_py` 패키지의 `my_msg_test` 파일을 가리키는 것이고
+
+그 안의 main함수를 실행하라는 것을 `setup.py`에 넣어준다고 생각하면 된다.
