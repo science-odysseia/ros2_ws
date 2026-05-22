@@ -401,15 +401,26 @@ find_package(builtin_interfaces REQUIRED)
 
 ```c
 set(msg_files 
-  "msg/msg1.msg"
-  "msg/msg2.msg"
+  "msg/Msg1.msg"
+  "msg/Msg2.msg"
 )
 ```
 msg파일 여러 개를 생성하겠다는 리스트를 작성하는 코드.(아직 생성 안함.)
 
 여기서 msg_files는 변수명이며, 바꿀 수 있다.
 
-msg 대신 srv, action을 넣어서 똑같은 형식으로 추가하면 srv, action 파일에 대해서도 적용할 수 있다.
+아래 예시처럼 msg 대신 srv, action을 넣어서 똑같은 형식으로 추가하면 srv, action 파일에 대해서도 적용할 수 있다.
+
+```c
+set(srv_files 
+  "srv/Srv1.srv"
+)
+
+set(srv_files 
+  "action/Action1.action"
+  "action/Action2.action"
+)
+```
 
 ```c
 rosidl_generate_interfaces(${PROJECT_NAME}
@@ -426,4 +437,30 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 `${msg_files}`, `${srv_files}`, `${action_files}` : 위에서 작성한 리스트들 목록.
 
 `DEPENDENCIES 여러 의존 패키지` : 이 인터페이스들은 `여러 의존 패키지`를 사용한다. (위 예시는 builtin_interfaces에 의존한다.)
+
+
+<br>
+
+다음으로 파이썬 패키지의 경우
+
+위 내용들은 먼저 동일하게 적용되며,
+
+추가로 만약 사용하려는 다른 패키지나 인터페이스 패키지가 있을 경우
+
+`package.xml`에 해당 내용을 추가한다
+
+가령 `ros_study_py`패키지에서 인터페이스 패키지 `ros_study_msgs`와 `rclpy` 패키지를 사용하는 경우
+
+아래 줄처럼 필요한 패키지들을 작성하여 package.xml에 추가하여 수정하면 된다.
+
+```md
+<depend>rclpy</depend>
+<depend>ros_study_msgs</depend>
+```
+
+다음으로 `setup.py`를 수정한다.
+
+예시로 아래부분만 아래처럼 수정하면 된다
+
+
 
