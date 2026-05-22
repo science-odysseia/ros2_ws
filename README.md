@@ -174,7 +174,7 @@ colcon build --symlink-install
 
 수정내용이 재빌드 없이 바로 반영되는 경우가 많이 위 명령어를 더 많이 사용한다.
 
-만약 특정 패키지만 빌드하고 싶은 경우 --packages-select 옵션을 사용해 빌드할 수 있다.
+만약 특정 패키지만 빌드하고 싶은 경우 `--packages-select` 옵션을 사용해 빌드할 수 있다.
 
 ```bash
 colcon build --symlink-install --packages-select my_pkg
