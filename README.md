@@ -509,9 +509,9 @@ ros2 run ros_study_py my_msg_name
 그 안의 main함수를 실행하라는 것을 `setup.py`에 넣어준다고 생각하면 된다.
 
 ---
-## ROS2 기초코드
+## ROS2 기초
 
-[ROS2기초](ros2기초/rclpy_learning.ipynb)
+[ROS2기초](ros2기초/topic_package.ipynb)
 
 \#\# 부록
 
