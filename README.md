@@ -474,7 +474,7 @@ ros2 run 명령어로 노드 1개를 실행할 때
 
 ```bash
 ros2 run ros_study_py my_msg_name
-         (패키지 이름) (노드 이름)
+#        (패키지 이름) (노드 이름)
 ```
 
 이렇게 실행하는데
