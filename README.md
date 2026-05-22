@@ -180,6 +180,31 @@ colcon build --symlink-install
 colcon build --symlink-install --packages-select my_pkg
 ```
 
+**주의**
+
+빌드했다고 해당 패키지 명령어를 바로 사용할 수 있는 것이 아니다.
+
+빌드한 내용을 터미널에 새로고침을 통해 적용을 해 줘야 패키지 명령어를 사용할 수 있다.
+
+아래 명령어 한 줄만 실행하면 된다.
+
+```bash
+source install/setup.bash
+```
+
+이 명령어는 새로운 터미널을 열 때마다 실행시켜 줘야 해당 터미널에서 패키지 명령어를 사용할 수 있다.
+
+이 과정이 귀찮다면 아래 명령을 통해 /.bashrc에 등록해서 자동 적용되게 할 수 있는데
+
+꼬일 위험이 약간 있을 수 있으므로 권장하진 않는다.
+
+등록했더라 하더라도 나중에 `sudo nano ~/.bashrc`로 내용수정을 통해 지울 수 있다.
+
+```bash
+echo "source ~/ros2_ws/install/setup.bash" >> ~/.bashrc     # 등록 명령어
+source ~/.bashrc                                            # 새로고침을 통한 적용.
+```
+
 ### 6) 의존성 업데이트
 
 의존성 업데이트 역시 **워크스페이스** 위치에서 한다.
@@ -482,3 +507,45 @@ ros2 run ros_study_py my_msg_name
 여기서 `my_msg_name`은 `ros_study_py` 패키지의 `my_msg_test` 파일을 가리키는 것이고
 
 그 안의 main함수를 실행하라는 것을 `setup.py`에 넣어준다고 생각하면 된다.
+
+---
+## ROS2 기초코드
+
+[ROS2기초](ros2기초/rclpy_learning.ipynb)
+
+\#\# 부록
+
+#### 1. package.xml 내용확인
+
+```bash
+ros2 pkg xml <패키지명>
+```
+
+예시 : 
+
+```bash
+ros2 pkg xml ros_study_py
+```
+#### 2. 패키지 안 ros2 run 실행 가능한 노드이름 목록 출력
+
+```bash
+ros2 pkg executables <패키지명>
+```
+
+예시 : 
+
+```bash
+ros2 pkg executables turtlesim
+```
+
+#### 3. 인터페이스 파일 내용확인
+
+```bash
+ros2 interface show <인터페이스 파일명>
+```
+
+예시 : 
+
+```bash
+ros2 interface show ros_study_msgs/msg/Msg1
+```
