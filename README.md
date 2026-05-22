@@ -499,14 +499,16 @@ ros2 run 명령어로 노드 1개를 실행할 때
 
 ```bash
 ros2 run ros_study_py my_msg_name
-#        (패키지 이름) (노드 이름)
+#        (패키지 이름) (노드 별칭)
 ```
 
 이렇게 실행하는데
 
-여기서 `my_msg_name`은 `ros_study_py` 패키지의 `my_msg_test` 파일을 가리키는 것이고
+여기서 `my_msg_name`은 `ros_study_py` 패키지의 `my_msg_test` 파일을 가리키는 일종의 별칭(노드이름은 아님!!)이고
 
 그 안의 main함수를 실행하라는 것을 `setup.py`에 넣어준다고 생각하면 된다.
+
+(노드이름은 `ros2 node list`로 확인할 수 있는데, 별칭과 다른 이름으로 뜬다. 자세한 내용은 `ros2기초/topic_package.ipynb` 내용 참고)
 
 ---
 ## ROS2 기초
