@@ -108,7 +108,7 @@ ros2 pkg create --build-type ament_python --node-name my_node my_pkg
 ```
 ```bash
 # c/c++
-ros2 pkg create --build-type ament_python --node-name my_node my_pkg
+ros2 pkg create --build-type ament_cmake --node-name my_node my_pkg
 ```
 
 ### 5) 빌드(Build)
