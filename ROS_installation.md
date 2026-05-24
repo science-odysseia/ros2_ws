@@ -6,7 +6,7 @@
 
 이는 **Ubuntu 22.04** 버전에서 잘 작동하니
 
-반드시 Ubuntu 버전을 아래 명령어로 확인하고 올바른 Ubuntu버전에서 설치할 것.
+반드시 Ubuntu 버전을 아래 명령어로 확인하고 올바른 Ubuntu버전에서 설치하세요.
 
 ```bash
 lsb_release -a

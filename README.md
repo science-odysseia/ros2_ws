@@ -7,6 +7,8 @@
 git clone https://github.com/science-odysseia/ROS2_WS.git
 ```
 
+### 본 내용 및 코드들은 모두 ROS2 Humble을 기반으로 작성한 내용입니다.
+
 # ROS2 Tutorial
 
 ## 개념정리
@@ -327,6 +329,12 @@ Client가 요청(Request)을 보내면 Server가 응답(Response)을 반환한�
 오래 걸리는 작업에 사용되는 통신 방식이다.
 
 Goal(목표) → Feedback(진행상황) → Result(최종결과) 구조를 가진다.
+
+클라이언트가 목표를 전송하면
+
+서버가 중간중간 피드백을 전송하고
+
+완료되면 결과를 전송하는 구조이다.
 
 중간 피드백 및 작업 취소가 가능하다.
 
