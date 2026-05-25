@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'py_Fibonacci'
+package_name = 'py_fibonacci'
 
 setup(
     name=package_name,
@@ -24,8 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'fibonacci_action_server = py_Fibonacci.fibonacci_action_server:main',
-            'fibonacci_action_client = py_Fibonacci.fibonacci_action_client:main',
+            'fibonacci_action_server = py_fibonacci.fibonacci_action_server:main',
+            'fibonacci_action_client = py_fibonacci.fibonacci_action_client:main',
         ],
     },
 )
