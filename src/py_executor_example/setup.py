@@ -26,6 +26,7 @@ setup(
         'console_scripts': [
             'single_executor_node = py_executor_example.single_executor_node:main',
             'multi_executor_node = py_executor_example.multi_executor_node:main',
+            'multi_exclusive_node = py_executor_example.multi_exclusive_node:main'
         ],
     },
 )
