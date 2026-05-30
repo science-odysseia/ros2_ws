@@ -535,6 +535,10 @@ ros2 run ros_study_py my_msg_name
 
 [ROS2기초](ros2기초/topic_package.ipynb)
 
+## ROS2 CLI 학습하기
+
+[ROS2 CLI](ros2기초/ROS2_CLI.md)
+
 \#\# 부록
 
 #### 1. package.xml 내용확인
