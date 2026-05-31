@@ -191,6 +191,23 @@ ros2 param set
 |dump|파라미터를 yaml 파일로 저장|
 |delete|파라미터 삭제|
 
+### 8. ros2 bag
+
+녹화 관련 명령어.
+
+```bash
+ros2 bag record
+ros2 bag play	
+ros2 bag info
+```
+
+|verb|의미|
+|:---:|:---:|
+|record|지정된 토픽 녹화(`-a` : 이 옵션만 붙이면 모든 토픽 녹화)|
+|play|녹화했던 지정된 토픽 재생|
+|info|저장된 rosbag 정보 출력|
+
+
 
 
 
