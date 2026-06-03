@@ -30,7 +30,7 @@ ros2 topic pub /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 1.0}, angular: {z:
 
 `[options]` : --once (한번만)
 
-\#\# 참고
+\#\# 참고 ( --ros-args 옵션 )
 
 ▪ -r __ns:=사용할 네임스페이스
 
