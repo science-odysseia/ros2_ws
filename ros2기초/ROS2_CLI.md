@@ -30,6 +30,15 @@ ros2 topic pub /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 1.0}, angular: {z:
 
 `[options]` : --once (한번만)
 
+\#\# 참고
+
+▪ -r __ns:=사용할 네임스페이스
+▪ -r __node:=변경할 노드 이름
+▪ -r 본래의 토픽/서비스/액션명:=변경할 이름
+▪ -p 파라미터 이름:=변경할 파라미터 값
+▪ --params-file 파라미터 파일
+
+
 ### 2. 실행 명령어
 
 #### 1) ros2 run
