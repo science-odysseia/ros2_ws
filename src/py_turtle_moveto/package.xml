@@ -4,7 +4,7 @@
   <name>py_turtle_moveto</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="i@todo.todo">i</maintainer>
+  <maintainer email="ros@email.com">i</maintainer>
   <license>TODO: License declaration</license>
 
   <depend>rclpy</depend>

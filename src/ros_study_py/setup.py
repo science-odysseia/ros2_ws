@@ -14,7 +14,7 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='ubunut2204',
-    maintainer_email='ros2@email.com',
+    maintainer_email='ros@email.com',
     description='TODO: Package description',
     license='TODO: License declaration',
     extras_require={

@@ -4,7 +4,7 @@
   <name>my_robot_interfaces</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="ysw414153@gmail.com">ubunut2204</maintainer>
+  <maintainer email="ros@email.com">ubunut2204</maintainer>
   <license>TODO: License declaration</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
