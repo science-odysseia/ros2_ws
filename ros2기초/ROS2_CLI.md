@@ -81,6 +81,8 @@ ros2 pkg xml turtlesim
 |prefix|지정 패키지의 저장 위치 출력|
 |xml|지정 패키지의 패키지 정보 파일(xml) 내용 출력|
 
+prefix의 경우 보통 /opt/ros/humble 로 뜨면 그 아래 share 폴더 안에 있는 경우가 많음.
+
 ### 4. ros2 node
 
 노드 관련 명령어.

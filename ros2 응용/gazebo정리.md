@@ -94,6 +94,20 @@ SLAM이 추정한 경로는 조금씩 틀어질 수밖에 없다.
 4. Loop Closure 및 Submap 파라미터 조정
 5. Global Localization Trigger 사용
 
+### GMapping vs Cartographer
+
+GMapping : Ros에서 오래전부터 사용된 2D LiDAR SLAM 알고리즘.
+
+주로 ROS1에서 많이 사용하며, 저사양 하드웨어에서도 비교적 가볍게 동작하지만,
+
+Odometry 품질에 민감하다.
+
+Cartographer : Google이 개발한 SLAM 알고리즘
+
+ROS1, ROS2 모두 사용가능하며, 2D, 3D SLAM을 모두 지원한다.
+
+오차 보정 능력이 비교적 좋고, 넓은 공간, 복잡한 환경에서 더 유리하다.
+
 ### NAV
 
 Navigation. 로봇이 현재 위치에서 목표까지 스스로 이동하도록 하는 기술
@@ -107,3 +121,20 @@ NAV는 만들어진 지도 위에서 목표 지점까지 경로를 계획 및 �
 1. Path Planning : 목표 지점까지 최적의 경로를 찾는 과정
 2. Behavior Tree : 로봇의 동작을 트리 형태로 구성하여 유동적으로 관리하고 제어하는 알고리즘
 3. Trajectory Tracking : 계획된 경로를 따라 로봇을 제어하는 기술
+
+### Nav2
+
+ROS2에서 사용하는 자율주행 네비게이션 프레임워크
+
+1. Planner Server : Dijkstra나 A*(경로 탐색 알고리즘)등을 사용하여 로봇 위치에서 목표 지점까지의 최적 경로 계산
+2. Controller Server : DWA 알고리즘을 사용하여 경로를 따라가기 위해 실제로 어떻게 움직일지를 계산(cmd_vel 생성)
+3. Smoother Server : Planner가 생성한 경로를 입력으로 받아, 로봇 주변 환경 정보를 나타내는 costmap을 기반으로 경로를 더 부드럽게 변경
+4. Recovery Server : 네비게이션 실패 시 clear costmap이나 회전, 후진 등의 복구 동작을 실행
+
+DWA(Dynamic Window Approach) : 
+
+로봇의 동역학 제약(속도, 가속도)을 고려하여 최적의 속도 명령을 선택하는 알고리즘.
+
+Costmap : Map에 비용을 표시한 것. 장애물과 가까울수록 고비용.
+
+
