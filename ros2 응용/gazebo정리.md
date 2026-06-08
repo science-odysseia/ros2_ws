@@ -1,6 +1,6 @@
 ## Gazebo
 
-가상 환경에서 로봇을 테스트하는 기술
+가상 환경에서 로봇을 테스트하는 시뮬레이션 프로그램.
 
 1. 물리 엔진 (ODE, Bullet, DART)
 2. 센서 시뮬레이션 (LiDAR, Camera 등)
@@ -136,5 +136,9 @@ DWA(Dynamic Window Approach) :
 로봇의 동역학 제약(속도, 가속도)을 고려하여 최적의 속도 명령을 선택하는 알고리즘.
 
 Costmap : Map에 비용을 표시한 것. 장애물과 가까울수록 고비용.
+
+gazebo 실습
+
+[gazebo 실습](../ros2%20응용/gazebo실습.ipynb)
 
 

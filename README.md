@@ -387,7 +387,7 @@ rosidl_generate_interfaces()라는 함수를 사용해야 하는데
 
 ### `package.xml`
 
-```md    
+```xml    
 <build_depend>rosidl_default_generators</build_depend>
 ```
 
@@ -406,7 +406,7 @@ rosidl_generate_interfaces(...)가 동작해야
 
 <br>
 
-```md
+```xml
 <exec_depend>rosidl_default_runtime</exec_depend>
 ```
 
@@ -418,7 +418,7 @@ ROS2 통신 시스템과 연결해주는 역할을 한다.
 
 <br>
 
-```md
+```xml
 <member_of_group>rosidl_interface_packages</member_of_group>
 ```
 
