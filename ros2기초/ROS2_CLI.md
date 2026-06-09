@@ -311,3 +311,6 @@ echo $ROS_VERSION               # 2. ROS2이면 2가, ROS1이면 1이 나온다.
 echo $ROS_DISTRO                # Humble. ROS2 배포판 출력.
 ```
 
+Ros2 응용
+
+[ROS2 응용](../ros2응용/심화개념.md)
