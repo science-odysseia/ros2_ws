@@ -131,6 +131,10 @@ ROS2에서 사용하는 자율주행 네비게이션 프레임워크
 3. Smoother Server : Planner가 생성한 경로를 입력으로 받아, 로봇 주변 환경 정보를 나타내는 costmap을 기반으로 경로를 더 부드럽게 변경
 4. Recovery Server : 네비게이션 실패 시 clear costmap이나 회전, 후진 등의 복구 동작을 실행
 
+경로찾기 알고리즘 실습 서버
+
+https://qiao.github.io/PathFinding.js/visual/
+
 DWA(Dynamic Window Approach) : 
 
 로봇의 동역학 제약(속도, 가속도)을 고려하여 최적의 속도 명령을 선택하는 알고리즘.
