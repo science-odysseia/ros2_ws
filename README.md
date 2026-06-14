@@ -58,6 +58,7 @@ ros2 run my_pkg my_node
 ros2는 파일의 형식에 구애받지 않으므로 my_node는 py일수도, c일수도, cpp일수도, 그 외 다른 것일 수도 있다.
 
 #### 2. ros2 launch
+
 ```bash
 ros2 launch my_pkg test_launch.py
 ```
